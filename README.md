@@ -34,6 +34,11 @@ Testing
 
 You can make and test changes simply by opening `testclient.html`.
 
+Credits
+------------------------------------------------------------------------
+
+May8th1995 (made the R&B Dex that I'm using for my Dex)
+
 License
 ------------------------------------------------------------------------
 
