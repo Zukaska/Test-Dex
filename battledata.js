@@ -729,7 +729,7 @@ if(typeof window==='undefined'){
     num=BattlePokedex[id].num;
     }
     if(num<0)num=0;
-    if(num>1017)num=0;
+    if(num>1025)num=0;
     
     if((_window$BattlePokemon3=window.BattlePokemonIconIndexes)!=null&&_window$BattlePokemon3[id]){
     num=BattlePokemonIconIndexes[id];
@@ -5466,3 +5466,4 @@ if(typeof window==='undefined'){
     
 
     //# sourceMappingURL=battledata.js.map
+
