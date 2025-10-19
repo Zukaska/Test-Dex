@@ -32945,5 +32945,517 @@ exports.BattlePokedex = {
         tags: ["Paradox"],
         eggGroups: ["Undiscovered"],
         tier: "1"
+    },
+    dipplin: {
+        num: 1011,
+        name: "Dipplin",
+        types: ["Grass", "Dragon"],
+        baseStats:  {
+            hp: 80,
+            atk: 80,
+            def: 110,
+            spa: 95,
+            spd: 80,
+            spe: 40,
+        },
+        abilities: {
+            "0": "Supersweet Syrup",
+            "1": "Gluttony",
+            H: "Sicky Hold",
+        },
+        heightm: 0.4,
+        weightkg: 4.4,
+        color: "Green",
+        prevo: "Applin",
+        evoType: "useItem",
+        evoItem: "Syrupy Apple",
+        evos: ["Hydrapple"],
+        eggGroups: ["Grass", "Dragon"],
+        tier: "1",
+    },
+    poltchageist: {
+        num: 1012,
+        name: "Poltchageist",
+        baseForme: "Counterfeit",
+        types: ["Grass", "Ghost"],
+        gender: "N",
+        baseStats: {
+            hp:40,
+            atk: 45,
+            def: 45,
+            spa: 74,
+            spd: 54,
+            spe: 50,
+        },
+        abilities: {
+            "0": "Hospitality",
+            H: "Heatproof"
+        },
+        heigtm: 0.1,
+        weightkg: 1.1,
+        color: "Green",
+        evos: ["Sinistcha"],
+        eggGroups: ["Mineral", "Amorphous"],
+        otherFormes: ["Poltchageist-Artisan"],
+        formeOrder: ["Poltchageist", "Poltchageist-Artisan"],
+        tier: "1",
+    },
+    poltchageistartisan: {
+        num: 1012,
+        name: "Poltchageist-Artisan",
+        baseSpecies: "Poltchageist",
+        forme: "Artisan",
+        types: ["Grass", "Ghost"],
+        gender: "N",
+        baseStats: {
+            hp:40,
+            atk: 45,
+            def: 45,
+            spa: 74,
+            spd: 54,
+            spe: 50,
+        },
+        abilities: {
+            "0": "Hospitality",
+            H: "Heatproof"
+        },
+        heigtm: 0.1,
+        weightkg: 1.1,
+        color: "Green",
+        evos: ["Sinistcha-Masterpiece"],
+        eggGroups: ["Mineral", "Amorphous"],
+        tier: "1",
+    },
+    sinistcha: {
+        num: 1013,
+        name: "Sinistcha",
+        baseForme: "Unremarkable",
+        types: ["Grass", "Ghost"],
+        gender: "N",
+        baseStats: {
+            hp: 71,
+            atk: 60,
+            def: 106,
+            spa: 121,
+            spd: 80,
+            spe: 70,
+        },
+        abilities: {
+            "0": "Hospitality",
+            H: "Heatproof"
+        },
+        heightm: 0.2,
+        weightkg: 2.2,
+        color: "Green",
+        prevo: "Poltchageist",
+        evoType: "useItem",
+        evoItem: "Unremarkable Teacup",
+        eggGroups: ["Mineral", "Amorphous"],
+        otherFormes: ["Sinistcha-Masterpiece"],
+        formeOrder: ["Sinistcha", "Sinistcha-Masterpiece"],
+        tier: "1",
+    },
+    sinistchamasterpiece: {
+        num: 1013,
+        name: "Sinistcha-Masterpiece",
+        baseSpecies: "Sinistcha",
+        forme: "Masterpiece",
+        types: ["Grass", "Ghost"],
+        gender: "N",
+        baseStats: {
+            hp: 71,
+            atk: 60,
+            def: 106,
+            spa: 121,
+            spd: 80,
+            spe: 70,
+        },
+        abilities: {
+            "0": "Hospitality",
+            H: "Heatproof"
+        },
+        heightm: 0.2,
+        weightkg: 2.2,
+        color: "Green",
+        prevo: "Poltchageist-Artisan",
+        evoType: "useItem",
+        evoItem: "Masterpiece Teacup",
+        eggGroups: ["Mineral", "Amorphous"],    
+        tier: "1",
+    },
+    okidogi: {
+        num: 1014,
+        name: "Okidogi",
+        types: ["Poison", "Fighting"],
+        gender: "M",
+        baseStats: {
+            hp: 88,
+            atk: 128,
+            def: 115, 
+            spa: 58,
+            spd: 86,
+            spe: 80
+        },
+        abilities: {
+            "0": "Toxic Chain",
+            H: "Guard Dog"
+        },
+        heightm: 1.8,
+        weightkg: 92,
+        color: "Black",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+      munkidori: {
+        num: 1015,
+        name: "Munkidori",
+        types: ["Poison", "Psychic"],
+        gender: "M",
+        baseStats: {
+            hp: 88,
+            atk: 75,
+            def: 66,
+            spa: 130,
+            spd: 90,
+            spe: 106
+        },
+        abilities: {
+            "0": "Toxic Chain",
+            H: "Frisk"
+        },
+        heightm: 1,
+        weightkg: 12.2,
+        color: "Black",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+      fezandipiti: {
+        num: 1016,
+        name: "Fezandipiti",
+        types: ["Poison", "Fairy"],
+        gender: "M",
+        baseStats: {
+            hp: 88,
+            atk: 91,
+            def: 82,
+            spa: 70,
+            spd: 125,
+            spe: 99
+        },
+        abilities: {
+            "0": "Toxic Chain",
+            H: "Technician"
+        },
+        heightm: 1.4,
+        weightkg: 30.1,
+        color: "Black",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+      ogerpon: {
+        num: 1017,
+        name: "Ogerpon",
+        baseForme: "Teal",
+        types: ["Grass"],
+        gender: "F",
+        baseStats: {
+            hp: 80,
+            atk: 120,
+            def: 84,
+            spa: 60,
+            spd: 96,
+            spe: 110
+        },
+        abilities: {
+            "0": "Defiant"
+        },
+        heightm: 1.2,
+        weightkg: 39.8,
+        color: "Green",
+        eggGroups: ["Undiscovered"],
+        otherFormes: ["Ogerpon-Wellspring", "Ogerpon-Hearthflame", "Ogerpon-Cornerstone", "Ogerpon-Teal-Tera", "Ogerpon-Wellspring-Tera", "Ogerpon-Hearthflame-Tera", "Ogerpon-Cornerstone-Tera"],
+        formeOrder: ["Ogerpon", "Ogerpon-Wellspring", "Ogerpon-Hearthflame", "Ogerpon-Cornerstone", "Ogerpon-Teal-Tera", "Ogerpon-Wellspring-Tera", "Ogerpon-Hearthflame-Tera", "Ogerpon-Cornerstone-Tera"],
+        tier: "1",
+    },
+      ogerponwellspring: {
+        num: 1017,
+        name: "Ogerpon-Wellspring",
+        baseSpecies: "Ogerpon",
+        forme: "Wellspring",
+        types: ["Grass", "Water"],
+        gender: "F",
+        baseStats: {
+            hp: 80,
+            atk: 120,
+            def: 84,
+            spa: 60,
+            spd: 96,
+            spe: 110
+        },
+        abilities: {
+            "0": "Water Absorb"
+        },
+        heightm: 1.2,
+        weightkg: 39.8,
+        color: "Green",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+      ogerponhearthflame: {
+        num: 1017,
+        name: "Ogerpon-Hearthflame",
+        baseSpecies: "Ogerpon",
+        forme: "Hearthflame",
+        types: ["Grass", "Fire"],
+        gender: "F",
+        baseStats: {
+            hp: 80,
+            atk: 120,
+            def: 84,
+            spa: 60,
+            spd: 96,
+            spe: 110
+        },
+        abilities: {
+            "0": "Mold Breaker"
+        },
+        heightm: 1.2,
+        weightkg: 39.8,
+        color: "Green",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+      ogerponcornerstone: {
+        num: 1017,
+        name: "Ogerpon-Cornerstone",
+        baseSpecies: "Ogerpon",
+        forme: "Cornerstone",
+        types: ["Grass", "Rock"],
+        gender: "F",
+        baseStats: {
+            hp: 80,
+            atk: 120,
+            def: 84,
+            spa: 60,
+            spd: 96,
+            spe: 110
+        },
+        abilities: {
+            "0": "Sturdy"
+        },
+        heightm: 1.2,
+        weightkg: 39.8,
+        color: "Green",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+      archaludon: {
+        num: 1018,
+        name: "Archaludon",
+        types: ["Steel", "Dragon"],
+        baseStats: {
+            hp: 90,
+            atk: 105,
+            def: 130,
+            spa: 125,
+            spd: 65,
+            spe: 85
+        },
+        abilities: {
+            "0": "Stamina",
+            "1": "Sturdy",
+            H: "Stalwart"
+        },
+        heightm: 2,
+        weightkg: 60,
+        color: "White",
+        prevo: "Duraludon",
+        evoType: "useItem",
+        evoItem: "Metal Alloy",
+        eggGroups: ["Mineral", "Dragon"],
+        tier: "1",
+    },
+    hydrapple: {
+        num: 1019,
+        name: "Hydrapple",
+        types: ["Grass", "Dragon"],
+        baseStats: {
+            hp: 106,
+            atk: 80,
+            def: 110,
+            spa: 120,
+            spd: 80,
+            spe: 44
+        },
+        abilities: {
+            "0": "Supersweet Syrup",
+            "1": "Regenerator",
+            H: "Sticky Hold"
+    },
+    heightm: 1.8,
+    weightkg: 93,
+    color: "Green",
+    prevo: "Dipplin",
+    evoType: "levelMove",
+    evoMove: "Dragon Cheer",
+    eggGroups: ["Grass", "Dragon"],
+    tier: "1",
+    },
+    gougingfire: {
+        num: 1020,
+        name: "Gouging Fire",
+        types: ["Fire", "Dragon"],
+        gender: "N",
+        baseStats: {
+            hp: 105,
+            atk: 115,
+            def: 121,
+            spa: 65,
+            spd: 93,
+            spe: 91
+        },
+        abilities: {
+            "0": "Protosynthesis"
+        },
+        heightm: 3.5,
+        weightkg: 590,
+        color: "Brown",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+    ragingbolt: {
+        num: 1021,
+        name: "Raging Bolt",
+        types: ["Electric", "Dragon"],
+        gender: "N",
+        baseStats: {
+            hp: 125,
+            atk: 73,
+            def: 91,
+            spa: 137,
+            spd: 89,
+            spe: 75
+        },
+        abilities: {
+            "0": "Protosynthesis"
+        },
+        heightm: 5.2,
+        weightkg: 480,
+        color: "Yellow",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+    ironboulder: {
+        num: 1022,
+        name: "Iron Boulder",
+        types: ["Rock", "Psychic"],
+        gender: "N",
+        baseStats: {
+            hp: 90,
+            atk: 120,
+            def: 80,
+            spa: 68,
+            spd: 108,
+            spe: 124
+        },
+        abilities: {
+            "0": "Quark Drive"
+        },
+        heightm: 1.5,
+        weightkg: 162.5,
+        color: "Gray",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+    ironcrown: {
+        num: 1023,
+        name: "Iron Crown",
+        types: ["Steel", "Psychic"],
+        gender: "N",
+        baseStats: {
+            hp: 90,
+            atk: 72,
+            def: 100,
+            spa: 122,
+            spd: 108,
+            spe: 98
+        },
+        abilities: {
+            "0": "Quark Drive"
+        },
+        heightm: 1.6,
+        weightkg: 156,
+        color: "Blue",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+    terapagos: {
+        num: 1024,
+        name: "Terapagos",
+        baseForme: "Base",
+        types: ["Normal"],
+        baseStats: {
+            hp: 90,
+            atk: 65,
+            def: 85,
+            spa: 65,
+            spd: 85,
+            spe: 60
+        },
+        abilities: {
+            "0": "Tera Shift"
+        },
+        heightm: 0.2,
+        weightkg: 6.5,
+        color: "Blue",
+        otherFormes: ["Terapagos-Terastal"],
+        formeOrder: ["Terapagos", "Terapagos-Terastal"],
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },
+    terapagosterastal: {
+        num: 1024,
+        name: "Terapagos-Terastal",
+        baseSpecies: "Terapagos",
+        forme: "Terastal",
+        types: ["Normal"],
+        baseStats: {
+            hp: 95,
+            atk: 95,
+            def: 110,
+            spa: 105,
+            spd: 110,
+            spe: 85
+        },
+        abilities: {
+            "0": "Tera Shell"
+        },
+        heightm: 0.3,
+        weightkg: 16,
+        color: "Blue",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
+    },  
+    pecharunt: {
+        num: 1025,
+        name: "Pecharunt",
+        types: ["Poison", "Ghost"],
+        gender: "N",
+        baseStats: {
+            hp: 88,
+            atk: 88,
+            def: 160,
+            spa: 88,
+            spd: 88,
+            spe: 88
+        },
+        abilities: {
+            "0": "Poison Puppeteer"
+        },
+        heightm: 0.3,
+        weightkg: 0.3,
+        color: "Purple",
+        eggGroups: ["Undiscovered"],
+        tier: "1",
     }
 };
