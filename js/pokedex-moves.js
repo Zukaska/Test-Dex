@@ -761,17 +761,15 @@ var PokedexLocationPanel = PokedexResultPanel.extend({
 		var results = [];
 		if (typeof BattleLocationdex[moveid].landslot1 !== 'undefined') {
 			results.push('a20% '+ BattleLocationdex[moveid].landslot1);
-			results.push('a10% '+ BattleLocationdex[moveid].landslot2);
+			results.push('a20% '+ BattleLocationdex[moveid].landslot2);
 			results.push('a10% '+ BattleLocationdex[moveid].landslot3);
 			results.push('a10% '+ BattleLocationdex[moveid].landslot4);
 			results.push('a10% '+ BattleLocationdex[moveid].landslot5);
 			results.push('a10% '+ BattleLocationdex[moveid].landslot6);
 			results.push('a10% '+ BattleLocationdex[moveid].landslot7);
 			results.push('az5% '+ BattleLocationdex[moveid].landslot8);
-			results.push('az5% '+ BattleLocationdex[moveid].landslot9);
-			results.push('az5% '+ BattleLocationdex[moveid].landslot10);
-			results.push('az4% '+ BattleLocationdex[moveid].landslot11);
-			results.push('az1% '+ BattleLocationdex[moveid].landslot12);
+			results.push('az4% '+ BattleLocationdex[moveid].landslot9);
+			results.push('az1% '+ BattleLocationdex[moveid].landslot10);
 		}
 		if (typeof BattleLocationdex[moveid].fishslot1 !== 'undefined') {
 			results.push('b20% '+ BattleLocationdex[moveid].fishslot1);
@@ -787,10 +785,12 @@ var PokedexLocationPanel = PokedexResultPanel.extend({
 		}
 		if (typeof BattleLocationdex[moveid].waterslot1 !== 'undefined') {
 			results.push('c30% '+ BattleLocationdex[moveid].waterslot1);
-			results.push('c30% '+ BattleLocationdex[moveid].waterslot2);
+			results.push('c20% '+ BattleLocationdex[moveid].waterslot2);
 			results.push('c20% '+ BattleLocationdex[moveid].waterslot3);
 			results.push('c10% '+ BattleLocationdex[moveid].waterslot4);
 			results.push('c10% '+ BattleLocationdex[moveid].waterslot5);
+			results.push('cz5% '+ BattleLocationdex[moveid].waterslot6);
+			results.push('cz5% '+ BattleLocationdex[moveid].waterslot7);
 		}
 		if (typeof BattleLocationdex[moveid].rockslot1 !== 'undefined') {
 			results.push('d60% '+ BattleLocationdex[moveid].rockslot1);
@@ -950,3 +950,4 @@ var PokedexLocationPanel = PokedexResultPanel.extend({
 		}
 	}
 });
+	
