@@ -5044,8 +5044,87 @@ exports.BattlePokedex = {
         },
         heightm: 1.4,
         weightkg: 88.4,
-        catchrate: 45,
         color: "Brown",
+        otherFormes: ["Tauros-Paldea-Combat", "Tauros-Paldea-Blaze", "Tauros-Paldea-Aqua"],
+        formeOrder: ["Tauros", "Tauros-Paldea-Combat", "Tauros-Paldea-Blaze", "Tauros-Paldea-Aqua"],
+        eggGroups: ["Field"],
+        tier: "1"
+    },
+    taurospaldeacombat: {
+        num: 128,
+        name: "Tauros-Paldea-Combat",
+        baseSpecies: "Tauros",
+        forme: "Paldea-Combat",
+        types: ["Fighting"],
+        gender: "M",
+        baseStats: {
+            hp: 75,
+            atk: 110,
+            def: 105,
+            spa: 30,
+            spd: 70,
+            spe: 100
+        },
+        abilities: {
+            "0": "Intimidate",
+            "1": "Anger Point",
+            H: "Cud Chew"
+        },
+        heightm: 1.4,
+        weightkg: 115,
+        color: "Black",
+        eggGroups: ["Field"],
+        tier: "1"
+    },
+    taurospaldeablaze: {
+        num: 128,
+        name: "Tauros-Paldea-Blaze",
+        baseSpecies: "Tauros",
+        forme: "Paldea-Blaze",
+        types: ["Fighting", "Fire"],
+        gender: "M",
+        baseStats: {
+            hp: 75,
+            atk: 110,
+            def: 105,
+            spa: 30,
+            spd: 70,
+            spe: 100
+        },
+        abilities: {
+            "0": "Intimidate",
+            "1": "Anger Point",
+            H: "Cud Chew"
+        },
+        heightm: 1.4,
+        weightkg: 85,
+        color: "Black",
+        eggGroups: ["Field"],
+        tier: "1"
+    },
+    taurospaldeaaqua: {
+        num: 128,
+        name: "Tauros-Paldea-Aqua",
+        baseSpecies: "Tauros",
+        forme: "Paldea-Aqua",
+        types: ["Fighting", "Water"],
+        gender: "M",
+        baseStats: {
+            hp: 75,
+            atk: 110,
+            def: 105,
+            spa: 30,
+            spd: 70,
+            spe: 100
+        },
+        abilities: {
+            "0": "Intimidate",
+            "1": "Anger Point",
+            H: "Cud Chew"
+        },
+        heightm: 1.4,
+        weightkg: 110,
+        color: "Black",
         eggGroups: ["Field"],
         tier: "1"
     },
@@ -7130,11 +7209,38 @@ exports.BattlePokedex = {
         },
         heightm: 0.4,
         weightkg: 8.5,
-        catchrate: 255,
         color: "Blue",
         evos: ["Quagsire"],
         eggGroups: ["Water 1", "Field"],
-        tier: "2"
+        otherFormes: ["Wooper-Paldea"],
+        formeOrder: ["Wooper", "Wooper-Paldea"],
+        tier: "0"
+    },
+    wooperpaldea: {
+        num: 194,
+        name: "Wooper-Paldea",
+        baseSpecies: "Wooper",
+        forme: "Paldea",
+        types: ["Poison", "Ground"],
+        baseStats: {
+            hp: 55,
+            atk: 45,
+            def: 45,
+            spa: 25,
+            spd: 25,
+            spe: 15
+        },
+        abilities: {
+            "0": "Poison Point",
+            "1": "Water Absorb",
+            H: "Unaware"
+        },
+        heightm: 0.4,
+        weightkg: 11,
+        color: "Brown",
+        evos: ["Clodsire"],
+        eggGroups: ["Water 1", "Field"],
+        tier: "1"
     },
     quagsire: {
         num: 195,
@@ -28036,7 +28142,7 @@ exports.BattlePokedex = {
         weightkg: 0.5,
         catchrate: 255,
         color: "Green",
-        evos: ["Flapple", "Appletun"],
+        evos: ["Flapple", "Appletun", "Dipplin"],
         eggGroups: ["Grass", "Dragon"],
         tier: "2"
     },
@@ -29379,6 +29485,7 @@ exports.BattlePokedex = {
         weightkg: 40,
         catchrate: 45,
         color: "White",
+        evos: ["Archaludon"],
         eggGroups: ["Mineral", "Dragon"],
         canGigantamax: "G-Max Depletion",
         tier: "1",
@@ -30004,6 +30111,34 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Honey",
         eggGroups: ["Field"],
+        otherFormes: ["Ursaluna-Bloodmoon"],
+        formeOrder: ["Ursaluna", "Ursaluna-Bloodmoon"],
+        tier: "1"
+    },
+        ursalunabloodmoon: {
+        num: 901,
+        name: "Ursaluna-Bloodmoon",
+        baseSpecies: "Ursaluna",
+        forme: "Bloodmoon",
+        types: ["Ground", "Normal"],
+        gender: "M",
+        baseStats: {
+            hp: 113,
+            atk: 70,
+            def: 120,
+            spa: 135,
+            spd: 65,
+            spe: 52
+        },
+        abilities: {
+            "0": "Mind's Eye",
+        },
+        heightm: 2.4,
+        weightkg: 333,
+        catchrate: 75,
+        color: "Brown",
+        eggGroups: ["Field"],
+        changesFrom: "Ursaluna",
         tier: "1"
     },
     basculegion: {
@@ -33458,4 +33593,4 @@ exports.BattlePokedex = {
         eggGroups: ["Undiscovered"],
         tier: "1",
     }
-};
+}; 
