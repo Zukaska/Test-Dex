@@ -259,6 +259,16 @@ exports.BattleItems = {
 		isNonstandard: "Past",
 		desc: "If held by a Banette, this item allows it to Mega Evolve in battle."
 	},
+	barbaracite: {
+		name: "Barbaracite",
+		spritenum: 0,
+		megaStone: "Barbaracle-Mega",
+		megaEvolves: "Barbaracle",
+		itemUser: ["Barbaracle"],
+		num: 2581,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	beastball: {
 		name: "Beast Ball",
 		spritenum: 661,
@@ -533,6 +543,16 @@ exports.BattleItems = {
 		gen: 5,
 		desc: "Raises holder's Attack by 1 if hit by an Electric-type attack. Single use."
 	},
+	chandelurite: {
+		name: "Chandelurite",
+		spritenum: 0,
+		megaStone: "Chandelure-Mega",
+		megaEvolves: "Chandelure",
+		itemUser: ["Chandelure"],
+		num: 2574,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	charcoal: {
 		name: "Charcoal",
 		spritenum: 61,
@@ -598,6 +618,16 @@ exports.BattleItems = {
 		isPokeball: true,
 		isNonstandard: "Unobtainable",
 		desc: "A rare Poke Ball that has been crafted to commemorate an occasion."
+	},
+	chesnaughtite: {
+		name: "Chesnaughtite",
+		spritenum: 0,
+		megaStone: "Chesnaught-Mega",
+		megaEvolves: "Chesnaught",
+		itemUser: ["Chesnaught"],
+		num: 2575,
+		gen: 9,
+		isNonstandard: "Future"
 	},
 	chestoberry: {
 		name: "Chesto Berry",
@@ -711,6 +741,16 @@ exports.BattleItems = {
 		num: 1882,
 		gen: 9,
 		desc: "Prevents other Pokemon from lowering the holder's stat stages."
+	},
+	clefablite: {
+		name: "Clefablite",
+		spritenum: 0,
+		megaStone: "Clefable-Mega",
+		megaEvolves: "Clefable",
+		itemUser: ["Clefable"],
+		num: 2559,
+		gen: 9,
+		isNonstandard: "Future"
 	},
 	cloversweet: {
 		name: "Clover Sweet",
@@ -900,6 +940,16 @@ exports.BattleItems = {
 		desc: "If held by a Clamperl, its Sp. Atk is doubled. Evolves Clamperl into Huntail when traded.",
 		shortDesc: "If held by a Clamperl, its Sp. Atk is doubled."
 	},
+	delphoxite: {
+		name: "Delphoxite",
+		spritenum: 0,
+		megaStone: "Delphox-Mega",
+		megaEvolves: "Delphox",
+		itemUser: ["Delphox"],
+		num: 2576,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	destinyknot: {
 		name: "Destiny Knot",
 		spritenum: 95,
@@ -962,6 +1012,16 @@ exports.BattleItems = {
 		gen: 4,
 		desc: "Holder's Dragon-type attacks have 1.2x power. Judgment is Dragon type."
 	},
+	dragalgite: {
+		name: "Dragalgite",
+		spritenum: 0,
+		megaStone: "Dragalge-Mega",
+		megaEvolves: "Dragalge",
+		itemUser: ["Dragalge"],
+		num: 2582,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	dragonfang: {
 		name: "Dragon Fang",
 		spritenum: 106,
@@ -981,6 +1041,16 @@ exports.BattleItems = {
 		gen: 5,
 		isNonstandard: "Past",
 		desc: "Holder's first successful Dragon-type attack will have 1.3x power. Single use."
+	},
+	dragoninite: {
+		name: "Dragoninite",
+		spritenum: 0,
+		megaStone: "Dragonite-Mega",
+		megaEvolves: "Dragonite",
+		itemUser: ["Dragonite"],
+		num: 2562,
+		gen: 9,
+		isNonstandard: "Future"
 	},
 	dragonmemory: {
 		name: "Dragon Memory",
@@ -1016,6 +1086,16 @@ exports.BattleItems = {
 		gen: 7,
 		isNonstandard: "Past",
 		desc: "If holder has a Dragon move, this item allows it to use a Dragon Z-Move."
+	},
+	drampanite: {
+		name: "Drampanite",
+		spritenum: 0,
+		megaStone: "Drampa-Mega",
+		megaEvolves: "Drampa",
+		itemUser: ["Drampa"],
+		num: 2585,
+		gen: 9,
+		isNonstandard: "Future"
 	},
 	dreadplate: {
 		name: "Dread Plate",
@@ -1088,6 +1168,16 @@ exports.BattleItems = {
 		num: 305,
 		gen: 4,
 		desc: "Holder's Ground-type attacks have 1.2x power. Judgment is Ground type."
+	},
+	eelektrossite: {
+		name: "Eelektrossite",
+		spritenum: 0,
+		megaStone: "Eelektross-Mega",
+		megaEvolves: "Eelektross",
+		itemUser: ["Eelektross"],
+		num: 2573,
+		gen: 9,
+		isNonstandard: "Future"
 	},
 	eeviumz: {
 		name: "Eevium Z",
@@ -1179,6 +1269,16 @@ exports.BattleItems = {
 		isNonstandard: "Past",
 		desc: "If holder has an Electric move, this item allows it to use an Electric Z-Move."
 	},
+	emboarite: {
+		name: "Emboarite",
+		spritenum: 0,
+		megaStone: "Emboar-Mega",
+		megaEvolves: "Emboar",
+		itemUser: ["Emboar"],
+		num: 2569,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	enigmaberry: {
 		name: "Enigma Berry",
 		spritenum: 124,
@@ -1204,6 +1304,16 @@ exports.BattleItems = {
 		gen: 5,
 		desc: "If holder's species can evolve, its Defense and Sp. Def are 1.5x."
 	},
+	excadrite: {
+		name: "Excadrite",
+		spritenum: 0,
+		megaStone: "Excadrill-Mega",
+		megaEvolves: "Excadrill",
+		itemUser: ["Excadrill"],
+		num: 2570,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	expertbelt: {
 		name: "Expert Belt",
 		spritenum: 132,
@@ -1227,6 +1337,18 @@ exports.BattleItems = {
 		isNonstandard: "Past",
 		desc: "If holder has a Fairy move, this item allows it to use a Fairy Z-Move."
 	},
+	fairyfeather: {	
+		name: "Fairy Feather",
+		spritenum: 754,
+		fling: {
+			basePower: 10
+		},
+		onBasePowerPriority: 15,
+		num: 2401,
+		gen: 9,
+		desc: "Holder's Fairy-type attacks have 1.2x power.",
+		shortDesc:"Holder's Fairy-type attacks have 1.2x power."
+	},
 	fairygem: {
 		name: "Fairy Gem",
 		spritenum: 611,
@@ -1246,7 +1368,17 @@ exports.BattleItems = {
 		gen: 7,
 		isNonstandard: "Past",
 		desc: "Holder's Multi-Attack is Fairy type."
-	},
+	},	
+	falinksite: {
+		name: "Falinksite",
+		spritenum: 0,
+		megaStone: "Falinks-Mega",
+		megaEvolves: "Falinks",
+		itemUser: ["Falinks"],
+		num: 2586,
+		gen: 9,
+		isNonstandard: "Future"
+		},
 	fastball: {
 		name: "Fast Ball",
 		spritenum: 137,
@@ -1254,6 +1386,16 @@ exports.BattleItems = {
 		gen: 2,
 		isPokeball: true,
 		desc: "A Poke Ball that makes it easier to catch Pokemon which are quick to run away."
+	},
+	feraligite: {
+		name: "Feraligite",
+		spritenum: 0,
+		megaStone: "Feraligatr-Mega",
+		megaEvolves: "Feraligatr",
+		itemUser: ["Feraligatr"],
+		num: 2564,
+		gen: 9,
+		isNonstandard: "Future"
 	},
 	fightinggem: {
 		name: "Fighting Gem",
@@ -1387,6 +1529,16 @@ exports.BattleItems = {
 		gen: 5,
 		desc: "Holder's weight is halved."
 	},
+	floettite: {
+		name: "Floettite",
+		spritenum: 0,
+		megaStone: "Floette-Mega",
+		megaEvolves: "Floette-Eternal",
+		itemUser: ["Floette-Eternal"],
+		num: 2579,
+		gen: 9,
+		isNonstandard:"Future"
+	},
 	flowersweet: {
 		name: "Flower Sweet",
 		spritenum: 708,
@@ -1504,6 +1656,16 @@ exports.BattleItems = {
 		gen: 2,
 		isPokeball: true,
 		desc: "A Poke Ball that makes caught Pokemon more friendly."
+	},
+	froslassite: {
+		name: "Froslassite",
+		spritenum: 0,
+		megaStone: "Froslass-Mega",
+		megaEvolves: "Froslass",
+		itemUser: ["Froslass"],
+		num: 2566,
+		gen: 9,
+		isNonstandard: "Future"
 	},
 	fullincense: {
 		name: "Full Incense",
@@ -1703,6 +1865,16 @@ exports.BattleItems = {
 		isPokeball: true,
 		desc: "A high-performance Ball that provides a higher catch rate than a Poke Ball."
 	},
+	greninjite: {
+		name: "Greninjite",
+		spritenum: 0,
+		megaStone: "Greninja-Mega",
+		megaEvolves: "Greninja",
+		itemUser: ["Greninja"],
+		num: 2577,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	grepaberry: {
 		name: "Grepa Berry",
 		spritenum: 178,
@@ -1815,6 +1987,16 @@ exports.BattleItems = {
 		gen: 2,
 		desc: "Holder's Rock-type attacks have 1.2x power."
 	},
+	hawluchanite: {
+		name: "Hawluchanite",
+		spritenum: 0,
+		megaStone: "Hawlucha-Mega",
+		megaEvolves: "Hawlucha",
+		itemUser: ["Hawlucha"],
+		num: 2583,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	healball: {
 		name: "Heal Ball",
 		spritenum: 188,
@@ -1822,6 +2004,20 @@ exports.BattleItems = {
 		gen: 4,
 		isPokeball: true,
 		desc: "A remedial Poke Ball that restores the caught Pokemon's HP and status problem."
+	},
+	hearthflamemask: {
+		name: "Hearthflame Mask",
+		spritenum: 760,
+		fling: {
+			basePower: 60
+		}, 
+		onBasePowerPriority: 15,
+		forcedForme: "Ogerpon-Hearthflame",
+		itemUser: ["Ogerpon-Hearthflame"],
+		num: 2408,
+		gen: 9,
+		desc: "Ogerpon-Hearthflame: 1.2x power attacks; Terastallize to gain Embody Aspect.",
+		shortDesc: "Ogerpon-Hearthflame: 1.2x power attacks; Terastallize to gain Embody Aspect." 
 	},
 	heatrock: {
 		name: "Heat Rock",
@@ -2502,6 +2698,16 @@ exports.BattleItems = {
 		isNonstandard: "Past",
 		desc: "Cannot be given to or taken from a Pokemon, except by Covet/Knock Off/Thief."
 	},
+	malamarite: {
+		name: "Malamarite",
+		spritenum: 0,
+		megaStone: "Malamar-Mega",
+		megaEvolves: "Malamar",
+		itemUser: ["Malamar"],
+		num: 2580,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	maliciousarmor: {
 		name: "Malicious Armor",
 		spritenum: 744,
@@ -2588,6 +2794,16 @@ exports.BattleItems = {
 		isNonstandard: "Past",
 		desc: "If held by a Medicham, this item allows it to Mega Evolve in battle."
 	},
+	meganiumite: {
+		name: "Meganiumite",
+		spritenum: 0,
+		megaStone: "Meganium-Mega",
+		megaEvolves: "Meganium",
+		itemUser: ["Meganium"],
+		num: 2563,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	mentalherb: {
 		name: "Mental Herb",
 		spritenum: 285,
@@ -2608,6 +2824,14 @@ exports.BattleItems = {
 		gen: 6,
 		isNonstandard: "Past",
 		desc: "If held by a Metagross, this item allows it to Mega Evolve in battle."
+	},
+	metalalloy: {
+		name: "Metal Alloy",
+		spritenum: 761,
+		num: 2482,
+		gen: 9,
+		desc: "Evolves Duraludon into Archaludon when used.",
+		shortDesc: "Evolves Duraludon into Archaludon when used."
 	},
 	metalcoat: {
 		name: "Metal Coat",
@@ -3341,6 +3565,16 @@ exports.BattleItems = {
 		gen: 9,
 		desc: "Holder's punch-based attacks have 1.1x power and do not make contact."
 	},
+	pyroarite: {
+		name: "Pyroarite",
+		spritenum: 0,
+		megaStone: "Pyroar-Mega",
+		megaEvolves: "Pyroar",
+		itemUser: ["Pyroar"],
+		num: 2578,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	qualotberry: {
 		name: "Qualot Berry",
 		spritenum: 371,
@@ -3762,6 +3996,16 @@ exports.BattleItems = {
 		isNonstandard: "Past",
 		desc: "If held by a Scizor, this item allows it to Mega Evolve in battle."
 	},
+	scolipite: {
+		name: "Scolipite",
+		spritenum: 0,
+		megaStone: "Scolipede-Mega",
+		megaEvolves: "Scolipede",
+		itemUser: ["Scolipede"],
+		num: 2571,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	scopelens: {
 		name: "Scope Lens",
 		spritenum: 429,
@@ -3772,6 +4016,16 @@ exports.BattleItems = {
 		gen: 2,
 		desc: "Holder's critical hit ratio is raised by 1 stage."
 	},
+	scraftinite: {
+		name: "Scraftinite",
+		spritenum: 0,
+		megaStone: "Scrafty-Mega",
+		megaEvolves: "Scrafty",
+		itemUser: ["Scrafty"],
+		num: 2572, 
+		gen: 9,
+		isNonstandard: "Future"
+		},
 	seaincense: {
 		name: "Sea Incense",
 		spritenum: 430,
@@ -3896,6 +4150,16 @@ exports.BattleItems = {
 		gen: 3,
 		desc: "Restores 1/4 max HP when at 1/2 max HP or less. Single use."
 	},
+	skarmorite: {
+		name: "Skarmorite",
+		spritenum: 0,
+		megaStone: "Skarmory-Mega",
+		megaEvolves: "Skarmory",
+		itemUser: ["Skarmory"],
+		num: 2565,
+		gen: 9,
+		isNonstandard: "Future"
+	},  
 	skullfossil: {
 		name: "Skull Fossil",
 		spritenum: 449,
@@ -4065,6 +4329,16 @@ exports.BattleItems = {
 		gen: 3,
 		desc: "Raises a random stat by 2 when at 1/4 max HP or less (not acc/eva). Single use."
 	},
+	starminite: {
+		name: "Starminite",
+		spritenum: 0,
+		megaStone: "Starmie-Mega",
+		megaEvolves: "Starmie",
+		itemUser: ["Starmie"],
+		num: 2561,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	starsweet: {
 		name: "Star Sweet",
 		spritenum: 709,
@@ -4205,6 +4479,17 @@ exports.BattleItems = {
 		gen: 8,
 		desc: "Evolves Applin into Appletun when used."
 	},
+	syrupyapple: {
+		name: "Syrupy Apple",
+		spritenum: 755,
+		fling: {
+			basePower: 30
+		},
+		num: 2402,
+		gen: 9,
+		desc: "Evolves Applin into Dipplin when used.",
+		shortDesc: "Evolves Applin into Dipplin when used."
+	} ,
 	tamatoberry: {
 		name: "Tamato Berry",
 		spritenum: 486,
@@ -5505,6 +5790,16 @@ exports.BattleItems = {
 		isNonstandard: "Past",
 		desc: "If held by a Venusaur, this item allows it to Mega Evolve in battle."
 	},
+	victreebelite: {
+		name: "Victreebelite",
+		spritenum: 0,
+		megaStone: "Victreebel-Mega",
+		megaEvolves: "Victreebel",
+		itemUser: ["Victreebel"],
+		num: 2560,
+		gen: 9,
+		isNonstandard: "Future"
+	},
 	wacanberry: {
 		name: "Wacan Berry",
 		spritenum: 526,
@@ -5600,6 +5895,20 @@ exports.BattleItems = {
 		num: 639,
 		gen: 6,
 		desc: "If holder is hit super effectively, raises Attack, Sp. Atk by 2 stages. Single use."
+	},
+	wellspringmask: {
+		name: "Wellspring Mask",
+		spritenum: 759,
+		fling: {
+			basePower: 60
+		},
+		onBasePowerPriority: 15,
+		forcedForme: "Ogerpon-Wellspring",
+		itemUser: ["Ogerpon-Wellspring"],
+		num: 2407,
+		gen: 9,
+		desc: "Ogerpon-Wellspring: 1.2x power attacks; Terastallize to gain Embody Aspect.",
+		shortDesc: "Ogerpon-Wellspring: 1.2x power attacks; Terastallize to gain Embody Aspect."
 	},
 	wepearberry: {
 		name: "Wepear Berry",
@@ -5702,6 +6011,16 @@ exports.BattleItems = {
 		num: 276,
 		gen: 4,
 		desc: "The accuracy of attacks by the holder is 1.2x if it moves after its target."
+	},
+	zygardite: {
+		name: "Zygardite",
+		spritenum: 0,
+		megaStone: "Zygarde-Mega",
+		megaEvolves: "Zygarde-Complete",
+		itemUser: ["Zygarde-Complete"],
+		num: 2584, 
+		gen: 9,
+		isNonstandard: "Future"
 	},
 	berserkgene: {
 		name: "Berserk Gene",
