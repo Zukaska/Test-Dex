@@ -1680,6 +1680,38 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Moon Stone",
         eggGroups: ["Fairy"],
+        otherFormes: ["Clefable-Mega"],
+        formeOrder: ["Clefable", "Clefable-Mega"],
+        tier: "1",
+    },
+    clefablemega: {
+        num: 36,
+        name: "Clefable-Mega",
+        baseSpecies: "Clefable",
+        forme: "Mega",
+        types: ["Fairy", "Flying"],
+        genderRatio: {
+            M: 0.25,
+            F: 0.75
+        },
+        baseStats: {
+            hp: 95,
+            atk: 80,
+            def: 93,
+            spa: 135,
+            spd: 110,
+            spe: 70
+        },
+        abilities: {
+            "0": "Unaware",
+            "1": "Magic Guard",
+            H: "Unaware"
+        },
+        heightm: 1.7,
+        weightkg: 42.3,
+        color: "Pink",
+        eggGroups: ["Fairy"],
+        requiredItem: "Clefablite",
         tier: "1",
     },
     vulpix: {
@@ -2957,6 +2989,33 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Leaf Stone",
         eggGroups: ["Grass"],
+        otherFormes: ["Victreebel-Mega"],
+        formeOrder: ["Victreebel", "Victreebel-Mega"],
+        tier: "1",
+    },
+    victreebelmega: {
+        num: 71,
+        name: "Victreebel-Mega",
+        baseSpecies: "Victreebel",
+        forme: "Mega",
+        types: ["Grass", "Poison"],
+        baseStats: {
+            hp: 80,
+            atk: 125,
+            def: 85,
+            spa: 135,
+            spd: 95,
+            spe: 70
+        },
+        abilities: {
+            "0": "Chlorophyll",
+            H: "Gluttony"
+        },
+        heightm: 4.5,
+        weightkg: 125.5,
+        color: "Green",
+        eggGroups: ["Grass"],
+        requiredItem: "Victreebelite",
         tier: "1",
     },
     tentacool: {
@@ -4797,6 +4856,33 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Water Stone",
         eggGroups: ["Water 3"],
+        otherFormes: ["Starmie-Mega"],
+        formeOrder: ["Starmie", "Starmie-Mega"],
+        tier: "1",
+    },
+    starmiemega: {
+        num: 121,
+        name: "Starmie-Mega",
+        baseSpecies: "Starmie",
+        forme: "Mega",
+        types: ["Water", "Psychic"],
+        gender: "N",
+        baseStats: {
+            hp: 60,
+            atk: 140,
+            def: 105,
+            spa: 130,
+            spd: 105,
+            spe: 120
+        },
+        abilities: {
+            "0": "Natural Cure",
+            H: "Analytic"
+        },
+        heightm: 2.3,
+        weightkg: 80,
+        color: "Purple",
+        eggGroups: ["Water 3"],
         tier: "1",
     },
     mrmime: {
@@ -5875,6 +5961,33 @@ exports.BattlePokedex = {
         prevo: "Dragonair",
         evoLevel: 55,
         eggGroups: ["Water 1", "Dragon"],
+        otherFormes: ["Dragonite-Mega"],
+        formeOrder: ["Dragonite", "Dragonite-Mega"],
+        tier: "1"
+    },
+    dragonitemega: {
+        num: 149,
+        name: "Dragonite-Mega",
+        baseSpecies: "Dragonite",
+        forme: "Mega",
+        types: ["Dragon", "Flying"],
+        baseStats: {
+            hp: 91,
+            atk: 124,
+            def: 115,
+            spa: 145,
+            spd: 125,
+            spe: 100
+        },
+        abilities: {
+            "0": "Inner Focus",
+            H: "Multiscale"
+        },
+        heightm: 2.2,
+        weightkg: 290,
+        color: "Brown",
+        eggGroups: ["Water 1", "Dragon"],
+        requiredItem: "Dragoninite",
         tier: "1"
     },
     mewtwo: {
@@ -6065,6 +6178,37 @@ exports.BattlePokedex = {
         prevo: "Bayleef",
         evoLevel: 32,
         eggGroups: ["Monster", "Grass"],
+        otherFormes: ["Meganium-Mega"],
+        formeOrder: ["Meganium", "Meganium-Mega"],
+        tier: "1",
+    },
+    meganiummega: {
+        num: 154,
+        name: "Meganium-Mega",
+        baseSpecies: "Meganium",
+        forme: "Mega",
+        types: ["Grass", "Fairy"],
+        genderRatio: {
+            M: 0.875,
+            F: 0.125
+        },
+        baseStats: {
+            hp: 80,
+            atk: 92,
+            def: 115,
+            spa: 143,
+            spd: 115,
+            spe: 80
+        },
+        abilities: {
+            "0": "Overgrow",
+            H: "Thick Fat"
+        },
+        heightm: 2.4,
+        weightkg: 201,
+        color: "Green",
+        eggGroups: ["Monster", "Grass"],
+        requiredItem: "Meganiumite",
         tier: "1",
     },
     cyndaquil: {
@@ -6273,6 +6417,37 @@ exports.BattlePokedex = {
         prevo: "Croconaw",
         evoLevel: 30,
         eggGroups: ["Monster", "Water 1"],
+        otherFormes: ["Feraligatr-Mega"],
+        formeOrder: ["Feraligatr", "Feraligatr-Mega"],
+        tier: "1",
+    },
+    feraligatrmega: {
+        num: 160,
+        name: "Feraligatr-Mega",
+        baseSpecies: "Feraligatr",
+        forme: "Mega",
+        types: ["Water", "Dragon"],
+        genderRatio: {
+            M: 0.875,
+            F: 0.125
+        },
+        baseStats: {
+            hp: 85,
+            atk: 160,
+            def: 125,
+            spa: 89,
+            spd: 93,
+            spe: 78
+        },
+        abilities: {
+            "0": "Torrent",
+            H: "Sheer Force"
+        },
+        heightm: 2.3,
+        weightkg: 108.8,
+        color: "Blue",
+        eggGroups: ["Monster", "Water 1"],
+        requiredItem: "Feraligite",
         tier: "1",
     },
     sentret: {
@@ -8288,10 +8463,38 @@ exports.BattlePokedex = {
         },
         heightm: 1.7,
         weightkg: 50.5,
-        catchrate: 25,
         itemRare: "Metal Coat",
         color: "Gray",
         eggGroups: ["Flying"],
+        otherFormes: ["Skarmory-Mega"],
+        formeOrder: ["Skarmory", "Skarmory-Mega"],
+        tier: "2",
+    },
+    skarmorymega: {
+        num: 227,
+        name: "Skarmory-Mega",
+        baseSpecies: "Skarmory",
+        forme: "Mega",
+        types: ["Steel", "Flying"],
+        baseStats: {
+            hp: 65,
+            atk: 140,
+            def: 110,
+            spa: 40,
+            spd: 100,
+            spe: 110
+        },
+        abilities: {
+            "0": "Keen Eye",
+            "1": "Sturdy",
+            H: "Weak Armor"
+        },
+        heightm: 1.7,
+        weightkg: 40.4,
+        catchrate: 25,
+        color: "Gray",
+        eggGroups: ["Flying"],
+        requiredItem: "Skarmorite",
         tier: "2",
     },
     houndour: {
@@ -15978,6 +16181,34 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dawn Stone",
         eggGroups: ["Fairy", "Mineral"],
+        otherFormes: ["Froslass-Mega"],
+        formeOrder: ["Froslass", "Froslass-Mega"],
+        tier: "1"
+    },
+    froslassmega: {
+        num: 478,
+        name: "Froslass-Mega",
+        baseSpecies: "Froslass",
+        forme: "Mega",
+        types: ["Ice", "Ghost"],
+        gender: "F",
+        baseStats: {
+            hp: 70,
+            atk: 80,
+            def: 70,
+            spa: 140,
+            spd: 100,
+            spe: 120
+        },
+        abilities: {
+            "0": "Cursed Body",
+            H: "Snow Cloak"
+        },
+        heightm: 2.6,
+        weightkg: 29.6,
+        color: "White",
+        eggGroups: ["Fairy", "Mineral"],
+        requiredItem: "Froslassite",
         tier: "1"
     },
     rotom: {
@@ -17219,6 +17450,37 @@ exports.BattlePokedex = {
         prevo: "Pignite",
         evoLevel: 36,
         eggGroups: ["Field"],
+        otherFormes: ["Emboar-Mega"],
+        formeOrder: ["Emboar", "Emboar-Mega"],
+        tier: "1",
+    },
+    emboarmega: {
+        num: 500,
+        name: "Emboar-Mega",
+        baseSpecies: "Emboar",
+        forme: "Mega",
+        types: ["Fire", "Fighting"],
+        genderRatio: {
+            M: 0.875,
+            F: 0.125
+        },
+        baseStats: {
+            hp: 110,
+            atk: 148,
+            def: 75,
+            spa: 110,
+            spd: 110,
+            spe: 75
+        },
+        abilities: {
+            "0": "Blaze",
+            H: "Reckless"
+        },
+        heightm: 1.8,
+        weightkg: 180.3,
+        color: "Red",
+        eggGroups: ["Field"],
+        requiredItem: "Emboarite",
         tier: "1",
     },
     oshawott: {
@@ -18061,6 +18323,34 @@ exports.BattlePokedex = {
         prevo: "Drilbur",
         evoLevel: 31,
         eggGroups: ["Field"],
+        otherFormes: ["Excadrill-Mega"],
+        formeOrder: ["Excadrill", "Excadrill-Mega"],
+        tier: "1",
+    },
+    excadrillmega: {
+        num: 530,
+        name: "Excadrill-Mega",
+        baseSpecies: "Excadrill",
+        forme: "Mega",
+        types: ["Ground", "Steel"],
+        baseStats: {
+            hp: 110,
+            atk: 165,
+            def: 100,
+            spa: 65,
+            spd: 65,
+            spe: 103
+        },
+        abilities: {
+            "0": "Sand Rush",
+            "1": "Sand Force",
+            H: "Mold Breaker"
+        },
+        heightm: 0.9,
+        weightkg: 60,
+        color: "Gray",
+        eggGroups: ["Field"],
+        requiredItem: "Excadrite",
         tier: "1",
     },
     audino: {
@@ -18491,6 +18781,33 @@ exports.BattlePokedex = {
         prevo: "Whirlipede",
         evoLevel: 30,
         eggGroups: ["Bug"],
+        otherFormes: ["Scolipede-Mega"],
+        formeOrder: ["Scolipede", "Scolipede-Mega"],
+        tier: "1",
+    },
+    scolipedemega: {
+        num: 545,
+        name: "Scolipede-Mega",
+        baseSpecies: "Scolipede",
+        forme: "Mega",
+        types: ["Bug", "Poison"],
+        baseStats: {
+            hp: 60,
+            atk: 140,
+            def: 149,
+            spa: 75,
+            spd: 99,
+            spe: 62
+        },
+        abilities: {
+            "0": "Poison Point",
+            H: "Speed Boost"
+        },
+        heightm: 3.2,
+        weightkg: 230.5,
+        color: "Red",
+        eggGroups: ["Bug"],
+        requiredItem: "Scolipite",
         tier: "1",
     },
     cottonee: {
@@ -19050,6 +19367,34 @@ exports.BattlePokedex = {
         prevo: "Scraggy",
         evoLevel: 39,
         eggGroups: ["Field", "Dragon"],
+        otherFormes: ["Scrafty-Mega"],
+        formeOrder: ["Scrafty", "Scrafty-Mega"],
+        tier: "2",
+    },
+    scraftymega: {
+        num: 560,
+        name: "Scrafty-Mega",
+        baseSpecies: "Scrafty",
+        forme: "Mega",
+        types: ["Dark", "Fighting"],
+        baseStats: {
+            hp: 65,
+            atk: 130,
+            def: 135,
+            spa: 55,
+            spd: 135,
+            spe: 68
+        },
+        abilities: {
+            "0": "Shed Skin",
+            "1": "Moxie",
+            H: "Intimidate"
+        },
+        heightm: 1.1,
+        weightkg: 31,
+        color: "Red",
+        eggGroups: ["Field", "Dragon"],
+        requiredItem: "Scraftinite",
         tier: "2",
     },
     sigilyph: {
@@ -20307,6 +20652,32 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Thunder Stone",
         eggGroups: ["Amorphous"],
+        otherFormes: ["Eelektross-Mega"],
+        formeOrder: ["Eelektross", "Eelektross-Mega"],
+        tier: "1"
+    },
+    eelektrossmega: {
+        num: 604,
+        name: "Eelektross-Mega",
+        baseSpecies: "Eelektross",
+        forme: "Mega",
+        types: ["Electric"],
+        baseStats: {
+            hp: 85,
+            atk: 145,
+            def: 80,
+            spa: 135,
+            spd: 90,
+            spe: 80
+        },
+        abilities: {
+            "0": "Levitate"
+        },
+        heightm: 3,
+        weightkg: 180,
+        color: "Blue",
+        eggGroups: ["Amorphous"],
+        requiredItem: "Eelektrossite",
         tier: "1"
     },
     elgyem: {
@@ -20437,6 +20808,34 @@ exports.BattlePokedex = {
         evoType: "useItem",
         evoItem: "Dusk Stone",
         eggGroups: ["Amorphous"],
+        otherFormes: ["Chandelure-Mega"],
+        formeOrder: ["Chandelure", "Chandlure-Mega"],
+        tier: "1",
+    },
+    chandeluremega: {
+        num: 609,
+        name: "Chandelure-Mega",
+        baseSpecies: "Chandelure",
+        forme: "Mega",
+        types: ["Ghost", "Fire"],
+        baseStats: {
+            hp: 60,
+            atk: 75,
+            def: 110,
+            spa: 175,
+            spd: 110,
+            spe: 90
+        },
+        abilities: {
+            "0": "Shadow Tag",
+            "1": "Flame Body",
+            H: "Flash Fire"
+        },
+        heightm: 2.5,
+        weightkg: 69.6,
+        color: "Black",
+        eggGroups: ["Amorphous"],
+        requiredItem: "Chandelurite",
         tier: "1",
     },
     axew: {
@@ -21897,6 +22296,37 @@ exports.BattlePokedex = {
         prevo: "Quilladin",
         evoLevel: 36,
         eggGroups: ["Field"],
+        otherFormes: ["Chesnaught-Mega"],
+        formeOrder: ["Chesnaught", "Chesnaught-Mega"],
+        tier: "1"
+    },
+    chesnaughtmega: {
+        num: 652,
+        name: "Chesnaught-Mega",
+        baseSpecies: "Chesnaught",
+        forme: "Mega",
+        types: ["Grass", "Fighting"],
+        genderRatio: {
+            M: 0.875,
+            F: 0.125
+        },
+        baseStats: {
+            hp: 88,
+            atk: 137,
+            def: 172,
+            spa: 74,
+            spd: 115,
+            spe: 44
+        },
+        abilities: {
+            "0": "Overgrow",
+            H: "Bulletproof"
+        },
+        heightm: 1.6,
+        weightkg: 90,
+        color: "Green",
+        eggGroups: ["Field"],
+        requiredItem: "Chesnaughtite",
         tier: "1"
     },
     fennekin: {
@@ -21984,6 +22414,37 @@ exports.BattlePokedex = {
         prevo: "Braixen",
         evoLevel: 36,
         eggGroups: ["Field"],
+        otherFormes: ["Delphox-Mega"],
+        formeOrder: ["Delphox", "Delphox-Mega"],
+        tier: "1"
+    },
+    delphoxmega: {
+        num: 655,
+        name: "Delphox-Mega",
+        baseSpecies: "Delphox",
+        forme: "Mega",
+        types: ["Fire", "Psychic"],
+        genderRatio: {
+            M: 0.875,
+            F: 0.125
+        },
+        baseStats: {
+            hp: 75,
+            atk: 69,
+            def: 72,
+            spa: 159,
+            spd: 125,
+            spe: 134
+        },
+        abilities: {
+            "0": "Blaze",
+            H: "Magic Guard"
+        },
+        heightm: 1.5,
+        weightkg: 39,
+        color: "Red",
+        eggGroups: ["Field"],
+        requiredItem: "Delphoxite",
         tier: "1"
     },
     froakie: {
@@ -22072,8 +22533,8 @@ exports.BattlePokedex = {
         prevo: "Frogadier",
         evoLevel: 36,
         eggGroups: ["Water 1"],
-        otherFormes: ["Greninja-Bond", "Greninja-Ash"],
-        formeOrder: ["Greninja", "Greninja-Bond", "Greninja-Ash"],
+        otherFormes: ["Greninja-Bond", "Greninja-Ash", "Greninja-Mega"],
+        formeOrder: ["Greninja", "Greninja-Bond", "Greninja-Ash", "Greninja-Mega"],
         tier: "1"
     },
     greninjabond: {
@@ -22126,6 +22587,36 @@ exports.BattlePokedex = {
         battleOnly: "Greninja-Bond",
         gen: 7,
         tier: "2",
+    },
+    greninjamega: {
+        num: 658,
+        name: "Greninja-Mega",
+        baseSpecies: "Greninja",
+        forme: "Mega",
+        types: ["Water", "Dark"],
+        genderRatio: {
+            M: 0.875,
+            F: 0.125
+        },
+        baseStats: {
+            hp: 72,
+            atk: 125,
+            def: 77,
+            spa: 133,
+            spd: 81,
+            spe: 142
+        },
+        abilities: {
+            "0": "Torrent",
+            H: "Protean",
+            S: "Battle Bond"
+        },
+        heightm: 1.5,
+        weightkg: 40,
+        color: "Blue",
+        eggGroups: ["Water 1"],
+        requiredItem: "Greninjite",
+        tier: "1"
     },
     bunnelby: {
         num: 659,
@@ -22437,6 +22928,36 @@ exports.BattlePokedex = {
         prevo: "Litleo",
         evoLevel: 35,
         eggGroups: ["Field"],
+        otherFormes: ["Pyroar-Mega"],
+        formeOrder: ["Pyroar", "Pyroar-Mega"],
+        tier: "1"
+    },
+    pyroarmega: {
+        num: 668,
+        name: "Pyroar-Mega",
+        baseSpecies: "Pyroar",
+        forme: "Mega",
+        types: ["Fire", "Normal"],
+        genderRatio: {
+            M: 0.125,
+            F: 0.875
+        },
+        baseStats: {
+            hp: 86,
+            atk: 88,
+            def: 92,
+            spa: 129,
+            spd: 86,
+            spe: 126
+        },
+        abilities: {
+            "0": "Unnerve"
+        },
+        heightm: 1.5,
+        weightkg: 93.3,
+        color: "Brown",
+        eggGroups: ["Field"],
+        requiredItem: "Pyroarite",
         tier: "1"
     },
     flabebe: {
@@ -22493,9 +23014,9 @@ exports.BattlePokedex = {
         evoLevel: 19,
         evos: ["Florges"],
         eggGroups: ["Fairy"],
-        otherFormes: ["Floette-Eternal"],
+        otherFormes: ["Floette-Eternal", "Floette-Mega"],
         cosmeticFormes: ["Floette-Blue", "Floette-Orange", "Floette-White", "Floette-Yellow"],
-        formeOrder: ["Floette", "Floette-Blue", "Floette-Orange", "Floette-White", "Floette-Yellow", "Floette-Eternal"],
+        formeOrder: ["Floette", "Floette-Blue", "Floette-Orange", "Floette-White", "Floette-Yellow", "Floette-Eternal", "Floette-Mega"],
         tier: "1"
     },
     floetteeternal: {
@@ -22520,6 +23041,31 @@ exports.BattlePokedex = {
         weightkg: 0.9,
         color: "White",
         eggGroups: ["Undiscovered"],
+        tier: "2",
+    },
+    floettemega: {
+        num: 670,
+        name: "Floette-Mega",
+        baseSpecies: "Floette",
+        forme: "Mega",
+        types: ["Fairy"],
+        gender: "F",
+        baseStats: {
+            hp: 74,
+            atk: 85,
+            def: 87,
+            spa: 155,
+            spd: 148,
+            spe: 102
+        },
+        abilities: {
+            "0": "Flower Veil"
+        },
+        heightm: 0.2,
+        weightkg: 100.8,
+        color: "White",
+        eggGroups: ["Undiscovered"],
+        requiredItem: "Floettite",
         tier: "2",
     },
     florges: {
@@ -23012,6 +23558,34 @@ exports.BattlePokedex = {
         evoLevel: 30,
         evoCondition: "with the console turned upside-down",
         eggGroups: ["Water 1", "Water 2"],
+        otherFormes: ["Malamar-Mega"],
+        formeOrder: ["Malamar", "Malamar-Mega"],
+        tier: "2",
+    },
+    malamarmega: {
+        num: 687,
+        name: "Malamar-Mega",
+        baseSpecies: "Malamar",
+        forme: "Mega",
+        types: ["Dark", "Psychic"],
+        baseStats: {
+            hp: 86,
+            atk: 102,
+            def: 88,
+            spa: 98,
+            spd: 120,
+            spe: 88
+        },
+        abilities: {
+            "0": "Contrary",
+            "1": "Suction Cups",
+            H: "Infiltrator"
+        },
+        heightm: 2.9,
+        weightkg: 69.8,
+        color: "Blue",
+        eggGroups: ["Water 1", "Water 2"],
+        requiredItem: "Malamarite",
         tier: "2",
     },
     binacle: {
@@ -23063,6 +23637,35 @@ exports.BattlePokedex = {
         prevo: "Binacle",
         evoLevel: 39,
         eggGroups: ["Water 3"],
+        otherFormes: ["Barbaracle-Mega"],
+        formeOrder: ["Barbaracle", "Barbaracle-Mega"],
+        tier: "2",
+    },
+    barbaraclemega: {
+        num: 689,
+        name: "Barbaracle-Mega",
+        baseSpecies: "Barbaracle",
+        forme: "Mega",
+        types: ["Rock", "Fighting"],
+        baseStats: {
+            hp: 72,
+            atk: 140,
+            def: 130,
+            spa: 64,
+            spd: 106,
+            spe: 88
+        },
+        abilities: {
+            "0": "Tough Claws",
+            "1": "Sniper",
+            H: "Pickpocket"
+        },
+        heightm: 2.2,
+        weightkg: 100,
+        catchrate: 45,
+        color: "Brown",
+        eggGroups: ["Water 3"],
+        requiredItem: "Barbaracite",
         tier: "2",
     },
     skrelp: {
@@ -23112,7 +23715,34 @@ exports.BattlePokedex = {
         prevo: "Skrelp",
         evoLevel: 38,
         eggGroups: ["Water 1", "Dragon"],
+        otherFormes: ["Dragalge-Mega"],
+        formeOrder: ["Dragalge", "Dragalge-Mega"],
         tier: "1"
+    },
+    dragalgemega: {
+        num: 691,
+        name: "Dragalge-Mega",
+        baseSpecies: "Dragalge",
+        forme: "Mega",  
+        types: ["Poison", "Dragon"],
+        baseStats: {
+            hp: 65,
+            atk: 85,
+            def: 105,
+            spa: 132,
+            spd: 163,
+            spe: 44
+        },
+        abilities: {
+            "0": "Poison Point",
+            H: "Adaptability"
+        },
+        heightm: 2.1,
+        weightkg: 100.3,
+        color: "Brown",
+        eggGroups: ["Water 1", "Dragon"],
+        requiredItem: "Dragalgite",
+        tier: "2"
     },
     clauncher: {
         num: 692,
@@ -23382,7 +24012,35 @@ exports.BattlePokedex = {
         itemRare: "Kings Rock",
         color: "Green",
         eggGroups: ["Flying", "Human-Like"],
+        otherFormes: ["Hawlucha-Mega"],
+        formeOrder: ["Hawlucha", "Hawlucha-Mega"],
         tier: "1"
+    },
+    hawluchamega: {
+        num: 701,
+        name: "Hawlucha-Mega",
+        baseSpecies: "Hawlucha",
+        forme: "Mega",
+        types: ["Fighting", "Flying"],
+        baseStats: {
+            hp: 78,
+            atk: 137,
+            def: 100,
+            spa: 74,
+            spd: 93,
+            spe: 118
+        },
+        abilities: {
+            "0": "Limber",
+            "1": "Unburden",
+            H: "Mold Breaker"
+        },
+        heightm: 1,
+        weightkg: 25,
+        color: "Green",
+        eggGroups: ["Flying", "Human-Like"],
+        requiredItem: "Hawluchanite",
+        tier: "2    "
     },
     dedenne: {
         num: 702,
@@ -24092,8 +24750,8 @@ exports.BattlePokedex = {
         color: "Green",
         tags: ["Restricted Legendary"],
         eggGroups: ["Undiscovered"],
-        otherFormes: ["Zygarde-10%", "Zygarde-Complete"],
-        formeOrder: ["Zygarde", "Zygarde-10%", "Zygarde-10%", "Zygarde", "Zygarde-Complete"],
+        otherFormes: ["Zygarde-10%", "Zygarde-Complete", "Zygarde-Mega"],
+        formeOrder: ["Zygarde", "Zygarde-10%", "Zygarde-10%", "Zygarde", "Zygarde-Complete", "Zygarde-Mega"],
         tier: "2",
     },
     zygarde10: {
@@ -24150,6 +24808,31 @@ exports.BattlePokedex = {
         requiredAbility: "Power Construct",
         battleOnly: ["Zygarde", "Zygarde-10%"],
         gen: 7,
+        tier: "2",
+    },
+    zygardemega: {
+        num: 718,
+        name: "Zygarde-Mega",
+        baseSpecies: "Zygarde",
+        forme: "Mega    ",
+        types: ["Dragon", "Ground"],
+        gender: "N",
+        baseStats: {
+            hp: 216,
+            atk: 70,
+            def: 91,
+            spa: 216,
+            spd: 85,
+            spe: 100
+        },
+        abilities: {
+            "0": "Aura Break"
+        },
+        heightm: 7.7,
+        weightkg: 610,
+        color: "Black",
+        eggGroups: ["Undiscovered"],
+        requiredItem: "Zygardite",
         tier: "2",
     },
     diancie: {
@@ -26515,6 +27198,34 @@ exports.BattlePokedex = {
         itemRare: "Persim Berry",
         color: "White",
         eggGroups: ["Monster", "Dragon"],
+        otherFormes: ["Drampa-Mega"],
+        formeOrder: ["Drampa", "Drampa  -Mega"],
+        tier: "2",
+    },
+    drampamega: {
+        num: 780,
+        name: "Drampa-Mega",
+        baseSpecies: "Drampa",
+        forme: "Mega",
+        types: ["Normal", "Dragon"],
+        baseStats: {
+            hp: 78,
+            atk: 85,
+            def: 110,
+            spa: 160,
+            spd: 116,
+            spe: 36
+        },
+        abilities: {
+            "0": "Berserk",
+            "1": "Sap Sipper",
+            H: "Cloud Nine"
+        },
+        heightm: 3,
+        weightkg: 185,
+        color: "White",
+        eggGroups: ["Monster", "Dragon"],
+        requiredItem: "Drampenite",
         tier: "2",
     },
     dhelmise: {
@@ -29064,6 +29775,34 @@ exports.BattlePokedex = {
         catchrate: 45,
         color: "Yellow",
         eggGroups: ["Fairy", "Mineral"],
+        otherFormes: ["Falinks-Mega"],
+        formeOrder: ["Falinks", "Falinks-Mega"],
+        tier: "2"
+    },
+    falinksmega: {
+        num: 870,
+        name: "Falinks-Mega",
+        baseSpecies: "Falinks",
+        forme: "Mega",
+        types: ["Fighting"],
+        gender: "N",
+        baseStats: {
+            hp: 65,
+            atk: 135,
+            def: 135,
+            spa: 70,
+            spd: 65,
+            spe: 100
+        },
+        abilities: {
+            "0": "Battle Armor",
+            H: "Defiant"
+        },
+        heightm: 1.6,
+        weightkg: 99,
+        color: "Yellow",
+        eggGroups: ["Fairy", "Mineral"],
+        requiredItem: "Falinksite",
         tier: "2"
     },
     pincurchin: {
@@ -33334,6 +34073,7 @@ exports.BattlePokedex = {
         weightkg: 39.8,
         color: "Green",
         eggGroups: ["Undiscovered"],
+        requiredItem: "Wellspring Mask",
         tier: "1",
     },
       ogerponhearthflame: {
@@ -33358,6 +34098,7 @@ exports.BattlePokedex = {
         weightkg: 39.8,
         color: "Green",
         eggGroups: ["Undiscovered"],
+        requiredItem: "Hearthflame Mask",
         tier: "1",
     },
       ogerponcornerstone: {
@@ -33382,6 +34123,7 @@ exports.BattlePokedex = {
         weightkg: 39.8,
         color: "Green",
         eggGroups: ["Undiscovered"],
+        requiredItem: "Cornerstone Mask",
         tier: "1",
     },
       archaludon: {
