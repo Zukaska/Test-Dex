@@ -261,7 +261,7 @@ exports.BattleItems = {
 	},
 	barbaracite: {
 		name: "Barbaracite",
-		spritenum: 0,
+		spritenum: 564,
 		megaStone: "Barbaracle-Mega",
 		megaEvolves: "Barbaracle",
 		itemUser: ["Barbaracle"],
@@ -545,7 +545,7 @@ exports.BattleItems = {
 	},
 	chandelurite: {
 		name: "Chandelurite",
-		spritenum: 0,
+		spritenum: 557,
 		megaStone: "Chandelure-Mega",
 		megaEvolves: "Chandelure",
 		itemUser: ["Chandelure"],
@@ -621,7 +621,7 @@ exports.BattleItems = {
 	},
 	chesnaughtite: {
 		name: "Chesnaughtite",
-		spritenum: 0,
+		spritenum: 558,
 		megaStone: "Chesnaught-Mega",
 		megaEvolves: "Chesnaught",
 		itemUser: ["Chesnaught"],
@@ -744,7 +744,7 @@ exports.BattleItems = {
 	},
 	clefablite: {
 		name: "Clefablite",
-		spritenum: 0,
+		spritenum: 544,
 		megaStone: "Clefable-Mega",
 		megaEvolves: "Clefable",
 		itemUser: ["Clefable"],
@@ -942,7 +942,7 @@ exports.BattleItems = {
 	},
 	delphoxite: {
 		name: "Delphoxite",
-		spritenum: 0,
+		spritenum: 559,
 		megaStone: "Delphox-Mega",
 		megaEvolves: "Delphox",
 		itemUser: ["Delphox"],
@@ -1014,7 +1014,7 @@ exports.BattleItems = {
 	},
 	dragalgite: {
 		name: "Dragalgite",
-		spritenum: 0,
+		spritenum: 565,
 		megaStone: "Dragalge-Mega",
 		megaEvolves: "Dragalge",
 		itemUser: ["Dragalge"],
@@ -1044,7 +1044,7 @@ exports.BattleItems = {
 	},
 	dragoninite: {
 		name: "Dragoninite",
-		spritenum: 0,
+		spritenum: 547,
 		megaStone: "Dragonite-Mega",
 		megaEvolves: "Dragonite",
 		itemUser: ["Dragonite"],
@@ -1089,7 +1089,7 @@ exports.BattleItems = {
 	},
 	drampanite: {
 		name: "Drampanite",
-		spritenum: 0,
+		spritenum: 569,
 		megaStone: "Drampa-Mega",
 		megaEvolves: "Drampa",
 		itemUser: ["Drampa"],
@@ -1171,7 +1171,7 @@ exports.BattleItems = {
 	},
 	eelektrossite: {
 		name: "Eelektrossite",
-		spritenum: 0,
+		spritenum: 556,
 		megaStone: "Eelektross-Mega",
 		megaEvolves: "Eelektross",
 		itemUser: ["Eelektross"],
@@ -1271,7 +1271,7 @@ exports.BattleItems = {
 	},
 	emboarite: {
 		name: "Emboarite",
-		spritenum: 0,
+		spritenum: 552,
 		megaStone: "Emboar-Mega",
 		megaEvolves: "Emboar",
 		itemUser: ["Emboar"],
@@ -1306,7 +1306,7 @@ exports.BattleItems = {
 	},
 	excadrite: {
 		name: "Excadrite",
-		spritenum: 0,
+		spritenum: 553,
 		megaStone: "Excadrill-Mega",
 		megaEvolves: "Excadrill",
 		itemUser: ["Excadrill"],
@@ -1371,7 +1371,7 @@ exports.BattleItems = {
 	},	
 	falinksite: {
 		name: "Falinksite",
-		spritenum: 0,
+		spritenum: 570,
 		megaStone: "Falinks-Mega",
 		megaEvolves: "Falinks",
 		itemUser: ["Falinks"],
@@ -1389,7 +1389,7 @@ exports.BattleItems = {
 	},
 	feraligite: {
 		name: "Feraligite",
-		spritenum: 0,
+		spritenum: 549,
 		megaStone: "Feraligatr-Mega",
 		megaEvolves: "Feraligatr",
 		itemUser: ["Feraligatr"],
@@ -1531,7 +1531,7 @@ exports.BattleItems = {
 	},
 	floettite: {
 		name: "Floettite",
-		spritenum: 0,
+		spritenum: 562,
 		megaStone: "Floette-Mega",
 		megaEvolves: "Floette-Eternal",
 		itemUser: ["Floette-Eternal"],
@@ -1659,7 +1659,7 @@ exports.BattleItems = {
 	},
 	froslassite: {
 		name: "Froslassite",
-		spritenum: 0,
+		spritenum: 551,
 		megaStone: "Froslass-Mega",
 		megaEvolves: "Froslass",
 		itemUser: ["Froslass"],
@@ -1867,7 +1867,7 @@ exports.BattleItems = {
 	},
 	greninjite: {
 		name: "Greninjite",
-		spritenum: 0,
+		spritenum: 560,
 		megaStone: "Greninja-Mega",
 		megaEvolves: "Greninja",
 		itemUser: ["Greninja"],
@@ -1989,7 +1989,7 @@ exports.BattleItems = {
 	},
 	hawluchanite: {
 		name: "Hawluchanite",
-		spritenum: 0,
+		spritenum: 566,
 		megaStone: "Hawlucha-Mega",
 		megaEvolves: "Hawlucha",
 		itemUser: ["Hawlucha"],
@@ -2700,7 +2700,7 @@ exports.BattleItems = {
 	},
 	malamarite: {
 		name: "Malamarite",
-		spritenum: 0,
+		spritenum: 563,
 		megaStone: "Malamar-Mega",
 		megaEvolves: "Malamar",
 		itemUser: ["Malamar"],
@@ -2796,7 +2796,7 @@ exports.BattleItems = {
 	},
 	meganiumite: {
 		name: "Meganiumite",
-		spritenum: 0,
+		spritenum: 548,
 		megaStone: "Meganium-Mega",
 		megaEvolves: "Meganium",
 		itemUser: ["Meganium"],
@@ -3567,7 +3567,7 @@ exports.BattleItems = {
 	},
 	pyroarite: {
 		name: "Pyroarite",
-		spritenum: 0,
+		spritenum: 561,
 		megaStone: "Pyroar-Mega",
 		megaEvolves: "Pyroar",
 		itemUser: ["Pyroar"],
@@ -3998,7 +3998,7 @@ exports.BattleItems = {
 	},
 	scolipite: {
 		name: "Scolipite",
-		spritenum: 0,
+		spritenum: 554,
 		megaStone: "Scolipede-Mega",
 		megaEvolves: "Scolipede",
 		itemUser: ["Scolipede"],
@@ -4018,7 +4018,7 @@ exports.BattleItems = {
 	},
 	scraftinite: {
 		name: "Scraftinite",
-		spritenum: 0,
+		spritenum: 555,
 		megaStone: "Scrafty-Mega",
 		megaEvolves: "Scrafty",
 		itemUser: ["Scrafty"],
@@ -4152,7 +4152,7 @@ exports.BattleItems = {
 	},
 	skarmorite: {
 		name: "Skarmorite",
-		spritenum: 0,
+		spritenum: 550,
 		megaStone: "Skarmory-Mega",
 		megaEvolves: "Skarmory",
 		itemUser: ["Skarmory"],
@@ -4331,7 +4331,7 @@ exports.BattleItems = {
 	},
 	starminite: {
 		name: "Starminite",
-		spritenum: 0,
+		spritenum: 546,
 		megaStone: "Starmie-Mega",
 		megaEvolves: "Starmie",
 		itemUser: ["Starmie"],
@@ -5792,7 +5792,7 @@ exports.BattleItems = {
 	},
 	victreebelite: {
 		name: "Victreebelite",
-		spritenum: 0,
+		spritenum: 545,
 		megaStone: "Victreebel-Mega",
 		megaEvolves: "Victreebel",
 		itemUser: ["Victreebel"],
@@ -6014,7 +6014,7 @@ exports.BattleItems = {
 	},
 	zygardite: {
 		name: "Zygardite",
-		spritenum: 0,
+		spritenum: 568,
 		megaStone: "Zygarde-Mega",
 		megaEvolves: "Zygarde-Complete",
 		itemUser: ["Zygarde-Complete"],
